@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the beauty of the Philippines with a local tour guide. Tailored itineraries based on your interests.">
+    <title>Your Personal Guide to the Philippines</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #4C9CBF;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Header Section */
+        header {
+            background-image: url('https://via.placeholder.com/1920x800'); /* Replace with your image */
+            background-size: cover;
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        header p {
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+
+        .cta-btn {
+            background-color: #FF7F50;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+        }
+
+        .cta-btn:hover {
+            background-color: #e86d41;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 36px;
+            color: #4C9CBF;
+        }
+
+        p {
+            font-size: 18px;
+            color: #666;
+            max-width: 800px;
+            margin: 0 auto 30px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .service {
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 15px;
+            width: 280px;
+            border-radius: 8px;
+            text-align: left;
+        }
+
+        .service h3 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        .service p {
+            font-size: 16px;
+            color: #777;
+        }
+
+        .form-container {
+            background-color: white;
+            padding: 40px;
+            margin: 30px auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            background-color: #4C9CBF;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #3a7c9d;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .service {
+                width: 90%;
+            }
+
+            header h1 {
+                font-size: 36px;
+            }
+
+            header p {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <header>
+        <h1>Explore the Philippines Like Never Before</h1>
+        <p>Your Personal Guide to an Unforgettable Philippine Adventure</p>
+        <a href="#contact" class="cta-btn">Start Your Journey Now</a>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Your Guide</h2>
+        <p>I’m not part of any big agency. I’m your personal local guide with years of travel experience in the Philippines. Whether you're looking for pristine beaches, rich history, or local culture, I can craft a unique itinerary just for you. Consider me not just a tour guide, but a friend who will accompany you through this beautiful country. I will help you explore hidden gems that many tourists miss, and together, we'll make sure your time in the Philippines is unforgettable.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Tailored Tours & Itineraries</h2>
+        <p>I specialize in creating personalized travel itineraries that suit your interests. Whether you're a history buff, a nature lover, a foodie, or just want to relax on the beach, I will design a journey that fits your needs.</p>
+        <div class="container">
+            <div class="service">
+                <h3>Custom Itineraries</h3>
+                <p>Tell me your interests, and I’ll create an itinerary that suits your travel style – from beaches to cultural hotspots.</p>
+            </div>
+            <div class="service">
+                <h3>Personal Guide</h3>
+                <p>Join me on your adventure or get expert advice on where to go and what to do, tailored just for you.</p>
+            </div>
+            <div class="service">
+                <h3>Travel Tips & Advice</h3>
+                <p>Benefit from insider tips that only a local guide can provide, ensuring a smooth and memorable trip.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Questionnaire Section -->
+    <section id="questionnaire">
+        <h2>What Kind of Adventure Are You Looking For?</h2>
+        <p>Fill out the form below so I can create the perfect itinerary just for you!</p>
+        <div class="form-container">
+            <form action="#" method="POST">
+                <label for="interests">What type of activities are you most interested in?</label>
+                <select id="interests" name="interests">
+                    <option value="beach">Beaches</option>
+                    <option value="nature">Nature & Hiking</option>
+                    <option value="history">History & Culture</option>
+                    <option value="food">Foodie Experiences</option>
+                    <option value="adventure">Adventure Sports</option>
+                    <option value="shopping">Shopping</option>
+                    <option value="nightlife">Nightlife</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="budget">What’s your budget range?</label>
+                <input type="text" id="budget" name="budget" placeholder="Your budget range">
+
+                <label for="length">How long do you plan to stay in the Philippines?</label>
+                <select id="length" name="length">
+                    <option value="3-5">3-5 Days</option>
+                    <option value="1week">1 Week</option>
+                    <option value="2weeks">2 Weeks</option>
+                    <option value="more">More than 2 Weeks</option>
+                </select>
+
+                <input type="submit" value="Submit & Get Started">
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <p>Have any questions or ready to start planning your adventure? Drop me a message below!</p>
+        <div class="form-container">
+            <form action="#" method="POST">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+                <input type="submit" value="Send Message">
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Your Tour Company | <a href="#">Privacy Policy</a></p>
+        <p>Follow me on social media: 
+            <a href="#">Facebook</a> | <a href="#">Instagram</a>
+        </p>
+    </footer>
+
+</body>
+</html>
